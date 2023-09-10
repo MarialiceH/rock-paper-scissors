@@ -52,4 +52,5 @@ function getResult() {
     if (computerChoice === 'scissors' && userChoice === "paper") {
         result = 'you lose!'
     }
+    resultDsiplay.innerHTML = result
 }
