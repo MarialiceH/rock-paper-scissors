@@ -8,4 +8,9 @@ let userChoice
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
+    generateComputerChoice()
 }))
+
+function generateComputerChoice() {
+    const randomNumber = Math.random()
+}
